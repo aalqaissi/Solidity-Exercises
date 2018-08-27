@@ -1,1 +1,1 @@
-# Solidity-Exercises
+# Solidity-Exercises-solutions
