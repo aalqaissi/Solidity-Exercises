@@ -5,7 +5,9 @@ contract Auction {
     
     uint public deployementTime;
     address public beneficiary;
-    string private password;
+    string private password; // note: it's not a secure way to share passwords on the blockChain, even if its access modifier is private, is not is really private on the blockchain.
+// we just added it here to make our idea of assets clear because you don't know tokenization concept yet.  
+
     
     mapping(address => bool) access; // declare a mapping to store given access for the winnwe address
     uint public max =0; // declare a variable to store the maximum value.
